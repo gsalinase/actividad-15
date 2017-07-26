@@ -5,10 +5,7 @@ Respuestas repaso Jquery / Javascript
 
 - ¿Cuál es el error?
 
-### respuesta:
-
-	~~~js
-  
+~~~
   var calcularIMC = function(peso, estatura){
     return peso / (estatura * estatura);
   }
@@ -27,8 +24,7 @@ Respuestas repaso Jquery / Javascript
   resultado = interpretarIMC(85,1.95);
   console.log(resultado);
   
-	~~~
-
+  ~~~
 
 ## Ejercicios de desarrollo
 
@@ -45,4 +41,4 @@ Recuerda documentar todos los pasos en un archivo llamado tunombre.md para que p
 - Agrega un título h1 a cada una de las formas que diga 'Entrevista personal', 'Entrevista de trabajo' respectivamente
 - Agrega un título a la pregunta Male/Female 'Gender'
 - Agrega una pregunta Email: con un input de tipo texto después de last name
-- Agrega la clase form a ambas for- </section>
+- Agrega la clase form a ambas for-.
