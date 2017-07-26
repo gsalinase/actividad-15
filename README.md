@@ -1,7 +1,9 @@
 # actividad-15
 Respuestas repaso Jquery / Javascript
 
-# Actividad Presencial 1 de Jquery.
+## Actividad Presencial 1 de Jquery.
+
+### Respuesta Nº 1
 
 - ¿Cuál es el error?
 
