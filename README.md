@@ -7,7 +7,7 @@ Respuestas repaso Jquery / Javascript
 
 - ¿Cuál es el error?
 
-~~~
+~~~js
   var calcularIMC = function(peso, estatura){
     return peso / (estatura * estatura);
   }
