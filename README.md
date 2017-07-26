@@ -69,7 +69,7 @@ Recuerda documentar todos los pasos en un archivo llamado tunombre.md para que p
   ~~~
 - Agrega un título a la pregunta Male/Female 'Gender'
 ~~~js
-  
+  $('input[value="male"]').before('<h3>Gender</h3>');
   ~~~
 - Agrega una pregunta Email: con un input de tipo texto después de last name
 ~~~js
@@ -77,5 +77,5 @@ Recuerda documentar todos los pasos en un archivo llamado tunombre.md para que p
   ~~~
 - Agrega la clase form a ambas for-.
 ~~~js
-  
+  $( "form" ).addClass( "form" );
   ~~~
