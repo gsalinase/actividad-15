@@ -65,7 +65,7 @@ Recuerda documentar todos los pasos en un archivo llamado tunombre.md para que p
   ~~~
 - Agrega un título h1 a cada una de las formas que diga 'Entrevista personal', 'Entrevista de trabajo' respectivamente
 ~~~js
-  
+  $('form').before('<h1>Entrevista Personal</h1>')
   ~~~
 - Agrega un título a la pregunta Male/Female 'Gender'
 ~~~js
