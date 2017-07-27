@@ -49,7 +49,7 @@ Recuerda documentar todos los pasos en un archivo llamado tunombre.md para que p
   ~~~
 - Obtén el valor del atributo 'name' del campo Favorite Day of The Week
 ~~~js
-  
+  $('select').attr('name');
   ~~~
 - Escoge la opción Female de la pregunta de género.
 ~~~js
@@ -73,9 +73,11 @@ Recuerda documentar todos los pasos en un archivo llamado tunombre.md para que p
   ~~~
 - Agrega una pregunta Email: con un input de tipo texto después de last name
 ~~~js
-  
+  $('input[name="lastname"]').after('<label name="2">Email:</label>');
+  $( 'h3').before('<input name="email"></input>');
+  $( 'label[name="2"]').before('<br>')
   ~~~
-- Agrega la clase form a ambas for-.
+- Agrega la clase form a ambas form.
 ~~~js
   $( "form" ).addClass( "form" );
   ~~~
